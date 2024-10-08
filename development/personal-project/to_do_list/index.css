@@ -1,0 +1,9 @@
+
+*
+
+.container{
+    justify-content: center;
+    justify-items: center;
+    margin: 12%;
+    width: 50%;
+}
