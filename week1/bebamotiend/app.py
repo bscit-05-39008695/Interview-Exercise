@@ -3,7 +3,9 @@ from flask import Flask
 from flask_cors import CORS
 from config import Config
 from models import db
-from registration import auth_bp, user_bp, provider_bp
+from auth_routes import auth_bp
+from provider_routes import provider_bp
+from user_routes import user_bp
 import os
 
 app = Flask(__name__)
